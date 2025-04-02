@@ -677,491 +677,22 @@ span a {
 
 
 
-@media  screen and (width<480px) {
+
+
+@media screen and (width > 767px) and (width < 1025px) {
 
   /* main landing page */
-  #header .main span{
- font-size:8px;   
-  }
-  #image{
-    width: 50px;
-  }
-  header{
-    height: 40px;
-    padding: 10px 20px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
+
   .recipe-title{
     position: absolute;
-    left: 25%;
-    top: 30%;
-    transform: translate(50%, 50%);
-    font-size: 20px;
-    font-weight: 100;
-  }
-  .recipe-title span{
-    font-size: 30px;
-    
-  }
-
-  .container{
-    width: 100%;
-    margin: 10px 40px;
-  }
-  .subcontainer p,h2{
-    font-size: 10px;
-  }
-  #route{
-    width: 150px;
-
-  }
-  .container-1{
-    margin:10px 10px;
-  }
-  #footersub{
-    margin: 0;
-    /* height: 200px; */
-  }
-  #footersub p{
-    font-size: 12px;
-    margin:10px 5px;
-  
-
-  }
-  .p {
-
-    width: 250px;
-    background-color: black;
-    opacity: 0.3;
-    text-align: center;
-    position: absolute;
-    left: 1%;
-    top: 1%;
-    color: white;
-    font-size:12px;
-    transform: translate(20%,0);
-
-  }
-  .content{
-    margin:5px 30px;
-
-  }
-
-p{
-  font-size: 10px;
-  margin: 0;
-  /* display: inline; */
-}
-#aboutimg{
-  width:450px;
-  height: 300px;
-}
-.span{
-  position: absolute;
-  left: 20%;
-  top: 25%;
-  transform: translate(50%,50%);
-}
-.span span{
-  font-size: 30px;
-  font-weight: 200;
-
-
-}
-.abtcontainer{
-  margin:10px 20px ;
-  padding: 0;
-
-}
-
-  .abtimg img{
-    width: 300px;
-    margin-left:30px;
-  }
-
-
-.subcontainer{
-  margin: 0;
-}
-.detailsabt{
-  padding: 10px;
-   
-}
-ul{
-  padding: 10px;
-}
-li{
-  font-size: 10px;
-}
-
-/* contactus */
-
-.center span{
-  font-size: 30px;
-}
-.center{
-  position: absolute;
-  left: 20%;
-  top: 25%;
-  transform: translate(50%,50%);
-}
-.contentc{
-  margin:0px 40px;
-}
-#form{
-  width: 250px;
-
-  padding:20px;
-  margin-left:10px;
-
-}
-#form input{
-width: 200px;
-
-}
-
-
-}
-
-
-
-@media  screen and (width<768px) {
-
-  /* main landing page */
-  #header .main span{
- font-size:18px;   
-  }
-  #image{
-    width: 100px;
-  }
-  header{
-    height: 40px;
-    padding: 10px 20px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
-  .recipe-title{
-    position: absolute;
-    left: 35%;
-    top: 40%;
+    left: 30%;
+    top: 35%;
     transform: translate(20%, 20%);
     font-size:34px;
     font-weight: 100;
   }
   .recipe-title span{
-    font-size:50px;
-    
-  }
-
-  .container{
-    width: 100%;
-    margin: 10px 70px;
-  }
-  .subcontainer p,h2{
-    font-size: 10px;
-  }
-  #route{
-    width: 150px;
-
-  }
-  .container-1{
-    margin:30px;
-  }
-  #footersub{
-    margin: 0;
-    /* height: 200px; */
-  }
-  #footersub p{
-    font-size: 12px;
-    margin:10px 5px;
-  
-
-  }
-
-
-
-  .p {
-
-    width: 280px;
-    background-color: black;
-    opacity: 0.3;
-    text-align: center;
-    position: absolute;
-    left: 25%;
-    top: 10%;
-    color: white;
-    font-size:12px;
-    transform: translate(20%,20%);
-
-  }
-
-  .content{
-    margin:8px 70px;
-
-  }
-
-p{
-  font-size: 10px;
-  margin: 0;
-  /* display: inline; */
- }
-#aboutimg{
-  width:100%;
-  height: 100%;
-}
-.span{
-  position: absolute;
-  left:10%;
-  top: 20%;
-  transform: translate(50%,50%);
-}
-.span span{
-  font-size: 80px;
-  font-weight: 200;
-
-
-}
-.abtcontainer{
-  margin:10px 75px ;
-  padding: 0;
-
-}
-
-  .abtimg img{
-    width: 400px;
-    margin-left:80px;
-  }
-  .abtimg p{
- padding: 10px;
-  }
-
-.subcontainer{
-  margin: 0;
-}
-.detailsabt{
-  padding: 20px;
-   
-}
-ul{
-  padding: 10px;
-}
-li{
-  font-size: 10px;
-}
-
-/* contactus */
-
-.center span{
-  font-size: 50px;
-}
-.center{
-  position: absolute;
-  left: 20%;
-  top: 15%;
-  transform: translate(50%,50%);
-}
-.contentc{
-  margin:10px 70px;
-}
-#form{
-  /* width: 250px; */
-
-  /* padding:20px; */
-  margin-left:25px;
-
-}
-#form input{
-width: 300px;
-
-}
-
-
-
-
-
-}
-
-@media screen and (width < 480px) {
-
-  .recipe-title {
-    font-size: 28px; /* Decreased from 34px */
-  }
-  .recipe-title span {
-    font-size: 40px; /* Decreased from 50px */
-  }
-
-  .subcontainer h2 {
-    font-size: 9px; /* Decreased from 10px */
-  }
-  /* main landing page */
-  #header .main span{
-    font-size:18px;
-  }
-  #image{
-    width: 100px;
-  }
-  header{
-    height: 40px;
-    padding: 10px 20px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
-  .recipe-title{
-    position: absolute;
-    left: 35%;
-    top: 40%;
-    transform: translate(20%, 20%);
-    font-size:34px;
-    font-weight: 100;
-  }
-  .recipe-title span{
-    font-size:50px;
-
-  }
-
-  .container{
-    width: 100%;
-    margin: 10px 70px;
-  }
-  .subcontainer p,h2{
-    font-size: 10px;
-  }
-  #route{
-    width: 150px;
-
-  }
-  .container-1{
-    margin:30px;
-  }
-  #footersub{
-    margin: 0;
-    /* height: 200px; */
-  }
-  #footersub p{
-    font-size: 12px;
-    margin:10px 5px;
-
-
-  }
-
-
-
-  .p {
-
-    width: 280px;
-    background-color: black;
-    opacity: 0.3;
-    text-align: center;
-    position: absolute;
-    left: 25%;
-    top: 10%;
-    color: white;
-    font-size:12px;
-    transform: translate(20%,20%);
-
-  }
-
-  .content{
-    margin:8px 70px;
-
-  }
-
-p{
-  font-size: 10px;
-  margin: 0;
-  /* display: inline; */
- }
-#aboutimg{
-  width:100%;
-  height: 100%;
-}
-.span{
-  position: absolute;
-  left:10%;
-  top: 20%;
-  transform: translate(50%,50%);
-}
-.span span{
-  font-size: 80px;
-  font-weight: 200;
-
-
-}
-.abtcontainer{
-  margin:10px 75px ;
-  padding: 0;
-
-}
-
-  .abtimg img{
-    width: 400px;
-    margin-left:80px;
-  }
-  .abtimg p{
-  padding: 10px;
-  }
-
-.subcontainer{
-  margin: 0;
-}
-.detailsabt{
-  padding: 20px;
-
-}
-ul{
-  padding: 10px;
-}
-li{
-  font-size: 10px;
-}
-
-/* contactus */
-
-.center span{
-  font-size: 50px;
-}
-.center{
-  position: absolute;
-  left: 20%;
-  top: 15%;
-  transform: translate(50%,50%);
-}
-.contentc{
-  margin:10px 70px;
-}
-#form{
-  /* width: 250px; */
-
-  /* padding:20px; */
-  margin-left:25px;
-
-}
-#form input{
-width: 300px;
-
-}
-
-}
-
-
-@media  screen and (width<1024px) {
-
-  /* main landing page */
-
-  .recipe-title{
-    position: absolute;
-    left: 25%;
-    top: 30%;
-    transform: translate(20%, 20%);
-    font-size:34px;
-    font-weight: 100;
-  }
-  .recipe-title span{
-    font-size:70px;
+    font-size:80px;
     
   }
 
@@ -1297,5 +828,522 @@ width: 300px;
 
 
 
+
+}
+@media  screen and (width > 570px ) and  (width<768px) {
+
+  /* main landing page */
+  #header .main span{
+ font-size:14px;   
+  }
+  #image{
+    width: 70px;
+  }
+  header{
+    height: 40px;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  .recipe-title{
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    transform: translate(20%, 20%);
+    font-size:30px;
+    font-weight: 100;
+  }
+  .recipe-title span{
+    font-size:80px;
+    
+  }
+
+  .container{
+    width: 100%;
+    margin: 10px 70px;
+  }
+  .subcontainer p,h2{
+    font-size: 10px;
+  }
+  #route{
+    width: 150px;
+
+  }
+  .container-1{
+    margin:30px;
+  }
+  #footersub{
+    margin: 0;
+    /* height: 200px; */
+  }
+  #footersub p{
+    font-size: 12px;
+    margin:10px 5px;
+  
+
+  }
+
+
+
+  .p {
+
+    width: 400px;
+    background-color: black;
+    opacity: 0.3;
+    text-align: center;
+    position: absolute;
+    left: 8%;
+    top: 3%;
+    color: white;
+    font-size:12px;
+    transform: translate(20%,20%);
+
+  }
+
+  .content{
+    margin:8px 70px;
+
+  }
+  .image img{
+    width:300px;
+    padding: 10px;
+  }
+
+p{
+  font-size:16px;
+  margin: 0;
+  /* display: inline; */
+ }
+#aboutimg{
+  width:100%;
+  height: 100%;
+}
+.span{
+  position: absolute;
+  left:5%;
+  top: 20%;
+  transform: translate(50%,50%);
+}
+.span span{
+  font-size: 80px;
+  font-weight: 200;
+
+
+}
+.abtcontainer{
+  margin:10px 75px ;
+  padding: 0;
+
+}
+
+  .abtimg img{
+    width:310px;
+    margin-left:80px;
+  }
+  .abtimg p{
+ padding: 10px;
+  }
+
+.subcontainer{
+  margin: 0;
+}
+.detailsabt{
+  padding: 20px;
+   
+}
+
+.detailsabt img{
+  width: 280px;
+   
+}
+
+ul{
+  padding: 10px;
+}
+li{
+  font-size: 10px;
+}
+
+/* contactus */
+
+.center span{
+  font-size: 50px;
+}
+.center{
+  position: absolute;
+  left: 20%;
+  top: 15%;
+  transform: translate(50%,50%);
+}
+.contentc{
+  margin:10px 70px;
+}
+#form{
+  /* width: 250px; */
+
+  /* padding:20px; */
+  margin-left:25px;
+
+}
+#form input{
+width: 300px;
+
+}
+
+
+
+
+
+}
+
+@media  screen and (width > 451px ) and  (width< 571px) {
+
+  /* main landing page */
+  #header .main span{
+ font-size:12px;   
+  }
+  #image{
+    width: 60px;
+  }
+  header{
+    height: 40px;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  .recipe-title{
+    position: absolute;
+    left:30%;
+    top: 30%;
+    transform: translate(20%, 20%);
+    font-size:34px;
+    font-weight: 100;
+  }
+  .recipe-title span{
+    font-size:50px;
+    
+  }
+
+  .container{
+    width: 100%;
+    margin: 10px 70px;
+  }
+  .subcontainer p,h2{
+    font-size: 10px;
+  }
+  #route{
+    width: 150px;
+
+  }
+  .container-1{
+    margin:30px;
+  }
+  #footersub{
+    margin: 0;
+    /* height: 200px; */
+  }
+  #footersub p{
+    font-size: 12px;
+    margin:10px 5px;
+  
+
+  }
+
+
+
+  .p {
+
+    width: 280px;
+    background-color: black;
+    opacity: 0.3;
+    text-align: center;
+    position: absolute;
+    left: 20%;
+    top: 5%;
+    color: white;
+    font-size:12px;
+    transform: translate(10%,5%);
+
+  }
+
+  .content{
+    margin:8px 70px;
+
+  }
+
+p{
+  font-size: 10px;
+  margin: 0;
+  /* display: inline; */
+ }
+#aboutimg{
+  width:100%;
+  height: 100%;
+}
+.span{
+  position: absolute;
+  left:10%;
+  top: 20%;
+  transform: translate(50%,50%);
+}
+.span span{
+  font-size: 80px;
+  font-weight: 200;
+
+
+}
+.abtcontainer{
+  margin:10px 75px ;
+  padding: 0;
+
+}
+.image img{
+
+  width: 250px;
+  margin-left: 20px;
+  padding: 10px;
+
+}
+
+  .abtimg img{
+    width: 400px;
+    margin-left:80px;
+  }
+  .abtimg p{
+ padding: 10px;
+  }
+
+.subcontainer{
+  margin: 0;
+}
+.detailsabt{
+  padding: 20px;
+   
+}
+ul{
+  padding: 10px;
+}
+li{
+  font-size: 10px;
+}
+
+/* contactus */
+
+.center span{
+  font-size: 50px;
+}
+.center{
+  position: absolute;
+  left: 15%;
+  top: 15%;
+  transform: translate(30%,50%);
+}
+.contentc{
+  margin:10px 70px;
+}
+#form{
+
+  margin-left:1px;
+
+}
+#form input{
+width: 280px;
+
+}
+
+
+
+
+
+}
+
+@media  screen and (width >319px ) and  (width < 449px) {
+
+  /* main landing page */
+  #header .main span{
+    font-size:5px;
+  }
+  #image{
+    width:40px;
+  }
+  header{
+    height: 40px;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  .recipe-title{
+    position: absolute;
+    left:35%;
+    top: 30%;
+    transform: translate(20%, 20%);
+    font-size:34px;
+    font-weight: 100;
+  }
+  .recipe-title span{
+    font-size:30px;
+
+  }
+
+  .container{
+    width: 100%;
+    margin: 10px 50px;
+  }
+  .subcontainer p,h2{
+    font-size: 10px;
+  }
+  #route{
+    width: 150px;
+
+  }
+  .container-1{
+    margin:30px;
+  }
+  #footersub{
+    margin: 0;
+    /* height: 200px; */
+  }
+  #footersub p{
+    font-size: 12px;
+    margin:10px 5px;
+
+
+  }
+
+.image img{
+  width: 200px;
+  padding: 5px;
+}
+
+  .p {
+
+    width: 180px;
+    background-color: black;
+    opacity: 0.3;
+    text-align: center;
+    position: absolute;
+    left: 15%;
+    top: 0.5%;
+    color: white;
+    font-size:10px;
+    transform: translate(20%,20%);
+
+  }
+
+  .content{
+    margin:8px 20px;
+
+  }
+
+
+p{
+  font-size: 10px; 
+  /* margin: 0; */
+   /* display: inline; */
+ }
+#aboutimg{
+  width:100%;
+  height: 100%;
+}
+ .span{
+  position: absolute;
+  left:10%;
+  top: 20%;
+  transform: translate(20%,10%);
+}
+.span span{
+  font-size: 50px;
+}
+
+.main span a{
+  font-size:10px;
+}
+/* .span span{
+  font-size: 80px;
+  font-weight: 200;
+
+
+} */
+.abtcontainer{
+  margin:10px 20px;
+  padding:10px;
+
+}
+
+  .abtimg img{
+    width: 400px;
+    margin-left:80px;
+  }
+  .abtimg p{
+   
+  padding: 10px;
+  }
+
+
+.detailsabt{
+  /* margin: 10px; */
+  padding: 20px;
+
+}
+.detailsabt img{
+  width: 180px;
+  margin-left: 30px;
+
+}
+
+.abtimg img{
+  width: 200px;
+  margin-left: 30px;
+  /* padding: 20px; */
+
+}
+
+
+
+
+ul{
+  padding: 10px;
+}
+li{
+  font-size: 10px;
+}
+
+/* contactus */
+
+.center span{
+  font-size: 30px;
+}
+.center{
+  position: absolute;
+  left: 20%;
+  top: 12%;
+  transform: translate(30%,30%);
+}
+.contentc{
+  width: 250px;
+  margin:10px 70px;
+}
+#form{
+  /* width: 250px; */
+
+  /* padding:20px; */
+  margin-left:2px;
+
+}
+#form input{
+width:150px;
+
+}
+button{
+  width: 120px;
+  /* margin: 0px; */
+}
+#form textarea{
+  width: 140px;
+  height: 40px;
+}
 
 }
