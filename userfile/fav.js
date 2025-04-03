@@ -161,6 +161,8 @@ if (favoriteMeals.length > 0) {
                 favoriteMeals.splice(index, 1);
                 localStorage.setItem("favoriteMeals", JSON.stringify(favoriteMeals));
                 mealContainer.remove();
+                
+
             }
         });
 
@@ -229,6 +231,9 @@ if (favoriteMeals.length > 0) {
     nodata.style.fontWeight = "200";
     maincontainer.appendChild(nodata);
 }
+
+
+
 
 let close=document.getElementById("closebtn")
 close.style.backgroundColor="red"
